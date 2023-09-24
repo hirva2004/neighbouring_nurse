@@ -448,14 +448,14 @@ include '../connect.php';
                 <div class="info-box mt-4">
                   <i class="bx bx-envelope"></i>
                   <h3>Email Us</h3>
-                  <p>principal@vgec.ac.in<br>hirva052@gmail.com</p>
+                  <p>principal@vgec.ac.in<br>mitali123@gmail.com</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <i class="bx bx-phone-call"></i>
                   <h3>Call Us</h3>
-                  <p>+91 9328559400<br>+91 9913127772</p>
+                  <p>+91 9328559400<br>+91 932678959</p>
                 </div>
               </div>
             </div>
@@ -561,7 +561,7 @@ include '../connect.php';
               <h3>NEIGHBOURING NURSE</h3>
               <p>
                 <strong>Phone:</strong> +91 9328559400<br>
-                <strong>Email:</strong>hirva2004@gmail.com <br>
+                <strong>Email:</strong>mitali@gmail.com <br>
               </p>
               <div class="social-links mt-3">
                 <a href="https://twitter.com/" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -650,7 +650,7 @@ include '../connect.php';
     $subject = "Neighbouring Nurse";
     $body = "Dear, User 
       You are successfully subscribed with us so now we will share you all our updates regarding Neighbouring Nurse on this $user";
-    $headers = "From: hirva052@gmail.com";
+    $headers = "From: mitali123.com";
 
     if (mail($user, $subject, $body, $headers)) {
       echo "alert('You are Subscribed with Us');";
